@@ -9,5 +9,9 @@ public class Capitalizer extends StringTransformer {
         else
             return Character.toUpperCase(s.charAt(0)) + s.substring(1);
     }
-
+    
+    @Override
+    public String toString() {
+        return "First letter capitalized";
+    }
 }

@@ -2,9 +2,23 @@ package edu.macalester.cs124.stringtransformer;
 
 import java.util.Scanner;
 
+/**
+ * A StringTransformer applies some transformation to a string, or to each word within a string.
+ * Subclasses should override the transform() method.
+ * 
+ * @author Paul
+ */
 public abstract class StringTransformer {
     
+    /**
+     * Apply some transformation to the input string, and return the result.
+     */
     public abstract String transform(String s);
+    
+    /**
+     * The UI uses toString() for the description, so subclasses must override it. 
+     */
+    public abstract String toString();
     
     /**
      * Returns a copy of the input string with each word (that is, each subsequence of letters)
@@ -22,13 +36,5 @@ public abstract class StringTransformer {
         }
         out.append(in.substring(prevEnd));
         return out.toString();
-    }
-    
-    /**
-     * Used by the UI, so by default we just show the class name. 
-     */
-    @Override
-    public String toString() {
-        return getClass().getSimpleName();
     }
 }

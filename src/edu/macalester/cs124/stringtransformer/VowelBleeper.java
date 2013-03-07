@@ -20,5 +20,9 @@ public class VowelBleeper extends StringTransformer {
     private boolean isVowel(char c) {
         return VOWELS.indexOf(c) != -1;
     }
-
+    
+    @Override
+    public String toString() {
+        return "Vowels bleeped out";
+    }
 }
