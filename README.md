@@ -16,3 +16,5 @@ I’ve created three examples for you: Capitalizer, VowelBleeper, and IdentityTr
 Once you feel ready to create your own StringTransformer, head up to the front of the room, where I have brief specifications for a wide variety of transformers. Pick an appealing one, implement it, and write tests for it. Note that **no two teams should work on the same specification!**
 
 Once it is working, commit and push! Because we are all sharing the same repository, you will see everybody else’s transformers when you pull. Having multiple people pushing and pulling from the same repository will create new problem, which you’ll have to work through.
+
+Once you've completed your first transformer, grab another spec — or make up one of your own!
