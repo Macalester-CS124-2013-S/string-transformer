@@ -41,19 +41,19 @@ public class Xeno extends StringTransformer{
 		if(!tier)
 			x -= 13;
 		switch(x) {
-			case 'a': return "↑";
-			case 'b': return "↗";
-			case 'c': return "→";
-			case 'd': return "↘";
-			case 'e': return "↓";
-			case 'f': return "↙";
-			case 'g': return "←";
-			case 'h': return "↖";
-			case 'i': return "┰";
-			case 'j': return "┤";
-			case 'k': return "┴";
-			case 'l': return "├";
-			case 'm': return "┌";
+			case 'a': return "\u2191";
+			case 'b': return "\u2197";
+			case 'c': return "\u2192";
+			case 'd': return "\u2198";
+			case 'e': return "\u2193";
+			case 'f': return "\u2199";
+			case 'g': return "\u2190";
+			case 'h': return "\u2196";
+			case 'i': return "\u2530";
+			case 'j': return "\u2524";
+			case 'k': return "\u2534";
+			case 'l': return "\u251c";
+			case 'm': return "\u250c";
 			default: return "";
 		}
 	}
